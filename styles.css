@@ -1,0 +1,13 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(60, 1fr); /* 16 columns */
+    grid-template-rows: repeat(60, 1fr);   /* 16 rows */
+    width: 400px; /* Total width of the grid */
+    height: 400px; /* Total height of the grid */
+    background-color: #f0f0f0;
+  }
+  
+  .grid-cell {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
